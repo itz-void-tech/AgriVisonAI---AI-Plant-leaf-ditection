@@ -5,8 +5,8 @@ import re
 # =========================
 # CONFIG
 # =========================
-API_KEY = "X5C8pMt0QHFOyfjWN9sW"
-WORKSPACE = "mpblitz"
+API_KEY = "YOUR_API_KEY" #Change with your api key
+WORKSPACE = "YOUR_WORKSPACE_NAME" #Change with your workspace name
 PROJECT = "plantdoc-kgjr7"
 VERSION = 1   # change if needed
 
@@ -48,3 +48,4 @@ if result.get('predictions'):
 else:
     print("\n===== Prediction Result =====")
     print(json.dumps(result, indent=4))
+
