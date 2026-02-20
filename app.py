@@ -22,8 +22,8 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif', 'webp', 'bmp'}
 
 # Roboflow config
-API_KEY = "X5C8pMt0QHFOyfjWN9sW"
-WORKSPACE = "mpblitz"
+API_KEY = "YOUR_API_KEY" #Change with your api key
+WORKSPACE = "YOUR_WORKSPACE_NAME" #Change with your workspace name
 
 # All project models configuration
 MODELS_CONFIG = [
@@ -277,3 +277,4 @@ def predict_url():
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
+
