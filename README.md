@@ -141,7 +141,7 @@ Open `app.py` and find the configuration section at the top:
 ```python
 # Line 26 in app.py
 API_KEY = "YOUR_API_KEY_HERE"  # ← Replace with your API key
-WORKSPACE = "mpblitz"  # Usually same for all projects
+WORKSPACE = "YOUR_WORKSPACE_NAME"  # Usually same for all projects
 ```
 
 **How to find your API Key:**
@@ -153,8 +153,8 @@ WORKSPACE = "mpblitz"  # Usually same for all projects
 
 ### Example Configuration:
 ```python
-API_KEY = "X5C8pMt0QHFOyfjWN9sW"  # ✅ Correct format
-WORKSPACE = "mpblitz"             # Your workspace name
+API_KEY = "X5.........."  # ✅ Correct format
+WORKSPACE = "workspace"             # Your workspace name
 ```
 
 If the models don't load, check:
@@ -397,7 +397,8 @@ This project uses Roboflow's public models. Check individual model licenses on R
 
 ## 👨‍💻 Author
 
-Created with ❤️ for agricultural AI enthusiasts
+Created by itz-void-tech
+https://github.com/itz-void-tech
 
 **Last Updated:** February 2026
 
