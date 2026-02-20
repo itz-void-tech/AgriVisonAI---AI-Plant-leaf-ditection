@@ -2,9 +2,11 @@
 
 An advanced AI-powered plant leaf detection and disease classification system using Roboflow's pre-trained models. This web application analyzes plant images to identify leaf types, detect diseases, and provide health conditions with confidence scores.
 
-![Main Page](images/mainpage.png)
-![Detection Results](images/ditection.png)
-![Additional Results](images/other.png)
+<div style="display: flex; gap: 10px; justify-content: center;">
+  <img src="images/mainpage.png" alt="Main Page" width="32%">
+  <img src="images/ditection.png" alt="Detection Results" width="32%">
+  <img src="images/other.png" alt="Additional Results" width="32%">
+</div>
 
 ---
 
